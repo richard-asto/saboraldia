@@ -63,7 +63,7 @@ const WelcomePage = ({ onLogin, onRegister, onForgotPassword, onGuestLogin }) =>
               </div>
               <h1 className="text-7xl font-bold text-white drop-shadow-2xl" 
                   style={{ fontFamily: 'Playfair Display, serif' }}>
-                Sabor<span className="text-orange-600">ía</span>
+                Sabor al <span className="text-orange-600">Día</span>
               </h1>
             </div>
             

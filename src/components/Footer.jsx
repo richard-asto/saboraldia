@@ -21,7 +21,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-xl font-bold mb-3 gradient-text-footer"
                             style={{ fontFamily: 'Playfair Display, serif' }}>
-                            Sabor<span className="text-orange-600">ía</span>
+                            Sabor al <span className="text-orange-600">Día</span>
                         </h3>
                         <p className="text-gray-400 text-sm leading-relaxed">
                             Tu compañero culinario perfecto. Descubre, planifica y cocina las mejores recetas del mundo.

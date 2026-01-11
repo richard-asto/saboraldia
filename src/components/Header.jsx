@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ChefHat, Search, Heart, Calendar, LogOut, Sparkles, Menu, X } from 'lucide-react';
+import { ChefHat, Search, Heart, Calendar, LogOut, Sparkles, Menu, X, User } from 'lucide-react';
 
 const Header = ({ user, currentView, onNavigate, onLogout, favoritesCount }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
@@ -29,8 +29,8 @@ const Header = ({ user, currentView, onNavigate, onLogout, favoritesCount }) => 
               <ChefHat className="w-6 h-6 md:w-8 md:h-8 text-white" />
             </div>
             <h1 className="text-xl md:text-3xl font-bold gradient-text"
-              style={{ fontFamily: 'Playfair Display, serif' }}>
-              Saboría
+              style={{ fontFamily: 'Playfair Display, serif'}}>
+              Sabor al <span className="text-orange-600">Día</span>
             </h1>
           </div>
 
@@ -61,7 +61,7 @@ const Header = ({ user, currentView, onNavigate, onLogout, favoritesCount }) => 
                     ? 'bg-gradient-to-br from-purple-500 to-indigo-500'
                     : 'bg-gradient-to-br from-orange-500 to-red-500'
                   }`}>
-                  {user?.isGuest ? <Sparkles className="w-5 h-5" /> : user?.name?.charAt(0).toUpperCase()}
+                  {user?.isGuest ? <User className="w-5 h-5" /> : user?.name?.charAt(0).toUpperCase()}
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-800 max-w-[120px] truncate">{user?.name}</p>
@@ -125,7 +125,7 @@ const Header = ({ user, currentView, onNavigate, onLogout, favoritesCount }) => 
                   ? 'bg-gradient-to-br from-purple-500 to-indigo-500'
                   : 'bg-gradient-to-br from-orange-500 to-red-500'
                 }`}>
-                {user?.isGuest ? <Sparkles className="w-5 h-5" /> : user?.name?.charAt(0).toUpperCase()}
+                {user?.isGuest ? <User className="w-5 h-5" /> : user?.name?.charAt(0).toUpperCase()}
               </div>
               <div className="flex-1 min-w-0">
                 <p className="text-sm font-semibold text-gray-800 truncate">{user?.name}</p>
