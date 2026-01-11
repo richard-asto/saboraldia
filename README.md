@@ -4,7 +4,7 @@
 
 > **Proyecto de Fin de Curso** - Aplicación web moderna para descubrir, planificar y cocinar recetas del mundo entero.
 
-![Sabor al Día Banner](/public/Saboraldia.jpg)
+![Sabor al Día Banner](/saboraldia.png)
 
 ## 📋 Tabla de Contenidos
 
@@ -20,9 +20,12 @@
 
 ## 📖 Descripción
 
-    **SaboralDía** es una aplicación web de recetas culinarias desarrollada como proyecto de fin de curso. Permite a los usuarios buscar recetas en inglés y español, guardar sus favoritas, planificar menús semanales y aprender a cocinar con videos tutoriales paso a paso.
+    **SaboralDía** es una aplicación web de recetas culinarias desarrollada como proyecto de fin de curso. 
+    Permite a los usuarios buscar recetas en inglés y español, guardar sus favoritas, planificar menús 
+    semanales y aprender a cocinar con videos tutoriales paso a paso.
 
-    La aplicación consume la API de [TheMealDB](https://www.themealdb.com/), una base de datos abierta de recetas con miles de platillos de todo el mundo.
+    La aplicación consume la API de [TheMealDB](https://www.themealdb.com/), una base de datos abierta de 
+    recetas con miles de platillos de todo el mundo.
 
 ### 🎯 Objetivos del Proyecto
 
@@ -80,39 +83,39 @@
 ## 🛠 Tecnologías
 
     ### Frontend Framework
-    ```
-    React 18.3.1      - Biblioteca de interfaz de usuario
-    Vite 5.4.2        - Build tool y dev server ultrarrápido
-    ```
+
+        React 18.3.1      - Biblioteca de interfaz de usuario
+        Vite 5.4.2        - Build tool y dev server ultrarrápido
+
     ### Estilos
-    ```
-    Tailwind CSS 3.4.1  - Framework de utilidades CSS
-    PostCSS             - Procesador de CSS
-    Autoprefixer        - Prefijos CSS automáticos
-    ```
+
+        Tailwind CSS 3.4.1  - Framework de utilidades CSS
+        PostCSS             - Procesador de CSS
+        Autoprefixer        - Prefijos CSS automáticos
+
     ### Iconos
-    ```
-    Lucide React       - Biblioteca de iconos moderna (300+ iconos)
-    ```
+
+        Lucide React       - Biblioteca de iconos moderna (300+ iconos)
+
     ### Gestión de Estado
-    ```
-    React Context API  - Estado global de la aplicación
-    Custom Hooks       - Lógica reutilizable
-    ```
+
+        React Context API  - Estado global de la aplicación
+        Custom Hooks       - Lógica reutilizable
+
     ### API Externa
-    ```
-    TheMealDB API      - Base de datos de recetas (+650 recetas)
-    ```
+
+        TheMealDB API      - Base de datos de recetas (+650 recetas)
+
     ### Persistencia
-    ```
-    localStorage       - Almacenamiento local del navegador
+
+        localStorage       - Almacenamiento local del navegador
 
 ## 📁 Estructura del Proyecto
 
     SaboralDia/
     │
     ├── public/                      # Archivos públicos estáticos
-    │   └── vite.svg
+    │   └── saboraldia.jpg           # Banner
     │
     ├── src/                         # Código fuente
     │   │
@@ -170,7 +173,7 @@
     ### Pasos
     1. **Clonar el repositorio**
     ```bash
-    git clone https://github.com/tu-usuario/saboralDia.git
+    git clone https://github.com/richard-asto/saboraldia
     cd saboralDia
     ```
     2. **Instalar dependencias**
@@ -297,15 +300,15 @@
     **Richard Asto**
         ### Información de Contacto
         - 📧 Email: rasto200516@gmail.com
-        - 💼 LinkedIn: [linkedin.com/in/tu-perfil](https://www.linkedin.com/in/richard-asto-flores-421458337/)
-        - 🐙 GitHub: [@Richard-Asto](https://github.com/richard-asto)
+        - 💼 LinkedIn: https://www.linkedin.com/in/richard-asto-flores-421458337/
+        - 🐙 GitHub: [https://github.com/richard-asto
 
 ### Proyecto de Fin de Curso
 
-    Institución:  [IDAT]
-    Carrera:      [Desarrollo Front-end]
+    Institución:  IDAT
+    Carrera:      Desarrollo Front-end
     Año:          2024-2025
-    Profesor:     [Elliot Garamendi]
+    Profesor:     Elliot Garamendi
 
 ## 📄 Licencia
 
